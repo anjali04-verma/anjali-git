@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form</title>
+    </head>
     <body>
-        <center>
-        <h1>GOOGLE FORM ASSIGNMENT</h1>
-        </center>
-        <center>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfdUEURTRnQKlNb6CI7-C9AwdamjuGjLaV8gJan43Zbr3Bjvg/viewform?embedded=true" width="640" height="954" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <center>
+        <h1>FORM</h1>
+        <form action="/action.php">
+          <table>
+            <tr>
+              <td>
+           <fieldset>
+            <label >Name:
+            <input type="text" placeholder="enter name">
+            </label><br><br>
+            <label >Password:
+            <input type="password" placeholder="enter password">
+            </label><br><br>
+            <label for="101">
+            <input type="radio" value="Btech" name="course">Btech
+            </label>
+            <br><br>
+            <label for="102">
+             <input type="radio" value="Mtech" name="course">Mtech
+             </label>
+              <br><br>
+            <label for="103">
+             <input type="radio" value="MBA" name="course">MBA
+             </label>
+              <br><br>
+            <label for="104">
+             <input type="radio" value="BBA" name="course">BBA
+             </label>
+              <br><br>
+            <label for="105">
+             <input type="radio" value="IT" name="course">IT
+             </label>
+             <br><br>
+             <input type="Submit" >
+             </fieldset>
+             </td>
+             </tr>
+             </table>
+        </form>
         </center>
     </body>
 </html>
